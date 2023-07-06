@@ -365,3 +365,308 @@
 // const b = new Date().getMilliseconds();
 
 // console.log(b - a);
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// const notification = "hello";
+// alert(notification);
+
+// const message = confirm("please confirm that your are an administrator");
+// console.log(message);
+
+// const numbersOfMembers = prompt("please enter numbers of members");
+// console.log(numbersOfMembers);
+// console.log(typeof numbersOfMembers);
+
+
+
+// const x = 5;
+// const y = 10;
+
+// console.log(x>y);
+// console.log(x>=y);
+// console.log(x<=y);
+// console.log(x<y);
+// console.log(x==y);
+// console.log(x!=y);
+// console.log(x!==y);
+
+
+// const value1 = "125.548nhgh165468.knosbnuvb";
+// console.log(Number(value1));
+// console.log(Number.isNaN(value1));
+// console.log(Number.parseInt(value1));
+// console.log(Number.parseFloat(value1));
+
+// const value = 1.1;
+// console.log(Math.ceil(value));
+// console.log(Math.floor(value));
+// console.log(Math.round(value));
+// console.log(Math.max(10,48, 12, 5));
+// console.log(Math.min(10,48, 12, 5));
+// console.log(Math.pow(5, 2));
+// console.log((Math.random()*(100-1) + 1).toFixed(0));
+
+
+
+// const message = "Welcome to Bahamas!";
+
+// console.log(message.length);
+// console.log(message.toUpperCase());
+// console.log(message.toLowerCase());
+// console.log(message.indexOf("t"));
+// console.log(message.includes("to"));
+// console.log(message.replace("to", "in"));
+
+
+// const base = Number(prompt("Please enter the base"));
+// const step = Number(prompt("Please enter the step"));
+
+// console.log(Math.pow(base, step));
+
+// console.log((Math.random() * (100 - 1) +1).toFixed(0));
+
+// const colors = ['blue', 'orange', 'red', 'pink', 'green'];
+
+// const max = colors.length - 1;
+// const min = 0;
+
+// const index = (Math.random() * (max - min) + min).toFixed(0);
+
+// const color = colors[index];
+// console.log(color);
+
+// document.body.style.background = color;
+
+// const productName = "Repair droid";
+
+// console.log(productName.slice(4, productName.length));
+// console.log(15 && 25 && "" && "Hello");
+
+// console.log(15 || 25);
+// console.log(15 || "");
+// console.log(0 || NaN);
+
+
+
+// const isOnline = true;
+// const isFriend = true;
+// const isDnd = false;
+
+// const canChatBeOpened = isOnline && isFriend && !isDnd;
+// console.log(canChatBeOpened);
+
+// let sub = 'vip';
+
+// const canWatch = sub === 'pro' || sub === 'vip';
+// console.log(canWatch);
+
+// if (sub === 'pro'){
+//     console.log('You can watch this chanel')
+// } else {
+//     console.log('You can not watch this chanel')
+// };
+
+
+
+// const message = sub === 'pro '? 'You can watch this chanel': 'You can not watch this chanel';
+// console.log(message);
+
+
+// const balance = 1000;
+// const payment = 700;
+
+
+// alert(`Total sum of the order is ${payment}`);
+// if(payment <= balance){
+//     alert(`On your account ${balance - payment}`)
+//     alert("success")
+// } else {
+//     alert("There is no enougth money on your account")
+// };
+
+// const totalSpent = 2000;
+// const payment = 500;
+// let discount = 0;
+// let message= "";
+
+
+// if (totalSpent >= 100 && totalSpent < 1000){
+//     discount = "2%";
+//     alert(message = `There is order for ${ (payment -(payment * Number.parseInt(discount)) / 100)} $ with discount ${discount} `);
+// } else if(totalSpent >= 1000 && totalSpent < 5000){
+//     discount = "5%";
+//     alert(message = `There is order for ${ (payment -(payment * Number.parseInt(discount)) / 100)} $ with discount ${discount} `);
+// } else if (totalSpent >= 5000){
+//     discount = "10%";
+//     alert(message = `There is order for ${ (payment -(payment * Number.parseInt(discount)) / 100)} $ with discount ${discount} `);
+// }
+// else {
+//     alert(message = `There is order for ${payment} $ with discount ${discount} `);
+// // };
+
+
+
+// const  stars = 4;
+// let price = 0;
+
+// switch(stars){
+//     case 1:
+//         price = 20;
+//         break;
+
+//     case 2:
+//         price =30;
+//         break;
+    
+//     case 3:
+//         price = 40;
+//         break;
+
+//     case 4:
+//         price  = 50;
+//         break;
+
+//     case 5:
+//         price = 60;
+//         break;
+
+//     default:
+//         console.log("the number of star is incorrect");
+// };
+// console.log(price);
+
+// const option = "courier";
+// let time;
+
+// switch(option){
+//     case "self":
+//         time = "You can take your order tomorrow afternoon";
+//         break;
+
+//     case "courier":
+//         time = "Tomorrow from 9am till 6pm courier will bring you an order";
+//         break;
+
+//     case "post":
+//         time = "The order will be sent to you you today";
+//         break;
+
+//     default:
+//         time = "Our manager will contact in the closest time"
+// };
+// console.log(time);
+
+
+// console.log(159%9);
+
+
+// for (let i = 3; i <= 10; i+=2){
+//     console.log(i);
+// }
+
+// const employees = 10;
+// let salary = 0;
+// let totalSalary = 0;
+// const min = 500;
+// const max = 5000;
+
+// for(let i = 0; i<=employees; i+=1){
+//     salary = Math.round((Math.random() *(max - min) + min));
+//     console.log(salary);
+//     totalSalary += salary;
+// }
+// console.log(totalSalary);
+
+
+// const min = 6;
+// const max = 13;
+// let total = 0;
+
+// for(let i = 6; i <= 13; i+=1) {
+// if(i % 2 !== 0){
+//     total += i;
+// }
+// }
+// console.log(total);
+
+
+// function getDiscount(totalSpent) {
+//     const BASE_DISCOUNT = 0;
+//     const BRONZE_DISCOUNT = 0.02;
+//     const SILVER_DISCOUNT = 0.05;
+//     const GOLD_DISCOUNT = 0.1;
+//     let discount;
+//     // Change code below this line
+//   if(totalSpent >= 50000){
+//     discount = GOLD_DISCOUNT
+//   } else if (totalSpent >= 20000 && totalSpent < 50000){
+//     discount = SILVER_DISCOUNT
+//   } else if (totalSpent >= 5000 && totalSpent < 20000){
+//     discount = BRONZE_DISCOUNT
+//   } else if(totalSpent < 5000){
+//     discount = BASE_DISCOUNT
+//   }
+//     // Change code above this line
+//     return discount;
+//   }
+// const random = (Math.random()* (100- 1) + 1).toFixed(0);
+// console.log(random);
+
+// console.log("1584469")
+
+
+// let counter = 0;
+// while (counter < 45) {
+//   console.log("counter: ", counter);
+//   counter += 5;
+// }
+
+
+// let password = "";
+
+// do {
+//   password = prompt("Введіть пароль довший 4-х символів", "");
+// } while (password.length < 5);
+
+// console.log("Ввели пароль: ", password);
+
+
+
+// let sum = 0;
+
+// for (let i = 0; i <= 35; i += 1) {
+//   sum += i;
+// }
+
+// console.log(sum);
+
+// for (let i = 0; i< 10; i += 1){
+//     if(i === 5){
+//         console.log("it is 3");
+//         break;
+//     }
+// };
+
+// for (let i = 1; i < 10; i += 1){
+//     if(i % 2 === 0){
+//         console.log(i, "парні")
+//         continue;
+//     }
+// };
+
+// const numbers = [1, 3, 14, 18, 4, 7, 29, 6, 34];
+// const threshold = 15;
+
+// // Для чисел, менших ніж порогове значення, спрацьовує continue, виконання тіла
+// // припиняється і управління передається на наступну ітерацію.
+// for (const number of numbers) {
+//   if (number < threshold) {
+//     continue;
+//   }
+
+//   console.log(`Число більше за ${threshold}: ${number}`); // 18, 29, 34
+// }
+
